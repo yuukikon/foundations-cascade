@@ -1,0 +1,44 @@
+@charset "utf-8";
+* {
+    text-align: left;
+}
+
+#container {
+    background-color: rgb(175, 173, 173);
+    padding: 10px;
+    margin: 30px;
+}
+
+header,
+.bold-text {
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 30px;
+    width: 60px;
+}
+
+.cancel {
+    background-color: white;
+    color: black;
+}
+.confirm {
+    background-color: green;
+    color: white;
+}
+
+footer > p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: blue;
+}
